@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="PT-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+
+    <form method="GET" action="" >
+    <h1>Crie sua Conta do Hello Pizza</h1>
+
+    <section id="conta">
+
+         
+        <fieldset id="conta">
+            <p> Conta: </p>
+            <div>
+                <label for="email">E-mail </label>  <input type="email" placeholder="aaaa@gggg.com">
+                <label for="senha">Senha:</label> <input type="password" placeholder="Uma senha">
+            </div>
+        </fieldset> 
+
+    </section>
+
+    <section id="pessoal">
+        <fieldset>
+            <p>Pessoal</p>
+            
+            <div>
+                <div> <label for="name">Nome:</label>  <input type="text" placeholder="Gabriel"> </div>
+                <div> <label for="telefone">Telefone:</label> <input type="tel" name="telefone" id="telefone" placeholder="(11)99999-9999"> </div>
+                <div> <label  for="sexo">Sexo:</label>  <input type="radio" value="masculino" name="masculino" id="M" checked> <label>Masculino</label> <input type="radio" value="feminino" name="feminino" id="F"> <label>Feminino</label> </div>
+                <div> <label for="dataNascimento">Data de Nascimento:</label> <input type="date" name="dataNascimento" id="dataNascimento" placeholder="dd/mm/aaaa"> </div>
+                
+                <div> <label for="foto">Foto de Perfil:</label> <input type="file" accept="image/*"> </div>
+                
+            </div>
+
+        </fieldset>
+
+    </section>
+
+
+    <section id="endereço:">
+        <fieldset>
+            <p>Endereço</p>
+
+            <div>
+                <div> <label for="rua">Rua:</label> <input type="text" name="rua" id="rua" placeholder="R.Tttttt"> </div>
+                <div> <label for="numero">Numero:</label> <input type="number" name="numero" id="numero" min="1" max="99999"> </div>
+                <div> <label for="complemento">Complemento</label> <input type="text" name="complemento" id="complemento" placeholder="Fundo, lado"> </div>
+                <div> <label for="cidade">Cidade:</label> <input type="text" name="cidade" id="cidade" placeholder="sua cidade"> </div>
+                
+                <div>
+                <label for="estado">Estado:</label>   
+                    <select name="estado" id=""estado>
+                        <option value="AC">AC</option>
+                        <option value="AL">AL</option>
+                        <option value="AP">AP</option>
+                        <option value="BA">BA</option>
+                        <option value="CE">CE</option>
+                        <option value="DF">DF</option>
+                        <option value="ES">ES</option>
+                        <option value="GO">GO</option>
+                        <option value="MA">MA</option>
+                        <option value="MS">MS</option>
+                        <option value="MG">MG</option>
+                        <option value="PA">PA</option>
+                        <option value="PR">PR</option>
+                        <option value="PE">PE</option>
+                        <option value="PI">PI</option>
+                        <option value="RJ">RJ</option>
+                        <option value="RN">RN</option>
+                        <option value="RS">RS</option>
+                        <option value="RO">RO</option>
+                        <option value="RR">RR</option>
+                        <option value="SC">SC</option>
+                        <option value="SP">SP</option>
+                        <option value="SE">SE</option>
+                        <option value="TO">TO</option>
+                    </select>
+                </div>
+s
+            </div>
+
+        </fieldset>
+
+
+    </section>
+
+    <section id="Anuncio:">
+        <div>
+            <label>Como conheceu o Hello Pizza?</label>
+            <textarea name="" id="" cols="30" rows="10" maxlength="500" placeholder="Digite aqui!"></textarea>
+        </div>
+
+        <div>
+            <label>Deseja receber ofertas por e-mail</label>
+            <input type="checkbox" name="receberEmail" id="receberEmail" checked>
+        </div>
+
+    </section>
+
+    <section id="fimCadastro">
+
+
+    </section>
+
+    </form>
+</body>
+</html>
